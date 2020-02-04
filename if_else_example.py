@@ -8,6 +8,8 @@ def main():
         teacher()
     elif password=="headmaster":
         headmaster()
+    elif password=="cat":
+        cat()
     elif password=="janitor":
         janitor()
     else:
@@ -22,6 +24,9 @@ def teacher():
 
 def headmaster():
     print("****WELCOME HEADMASTER****")
+
+def cat():
+    print("****WELCOME CAT****")
 
 def janitor():
     print("****WELCOME JANITOR****")
