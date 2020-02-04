@@ -10,6 +10,8 @@ def main():
         headmaster()
     elif password=="cat":
         cat()
+    elif password=="janitor":
+        janitor()
     else:
         print("incorrect password. We cannot take you any further, goodbye!")
 
@@ -25,5 +27,8 @@ def headmaster():
 
 def cat():
     print("****WELCOME CAT****")
+
+def janitor():
+    print("****WELCOME JANITOR****")
 
 main()
